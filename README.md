@@ -1,2 +1,2 @@
-# SwiftMacro-LLM-Example
-Make Swift Macro with LLM Example
+# Make-SwiftMacro-using-Cousor-Example
+Make Swift Macro using Cousor Example
