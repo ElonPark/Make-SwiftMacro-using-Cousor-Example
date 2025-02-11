@@ -2,11 +2,11 @@
 struct PropertyInfo {
     let name: String
     let customKey: String?
-    
+
     var codingKeyDeclaration: String {
-        if let customKey = customKey {
+        if let customKey {
             return "case \(name) = \(customKey)"
         }
         return "case \(name)"
     }
-} 
+}
